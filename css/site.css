@@ -1,0 +1,76 @@
+body {
+    background: #111 url("/images/layer-0.jpg") center center no-repeat;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+figure {
+    content: " ";
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+img {
+    width: 100%
+}
+
+main {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    padding: 0;
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+section:nth-child(1) figure {
+    height: 100%;
+    width: 100%;
+}
+
+section:nth-child(2) figure {
+    left: -48px;
+    top: -48px;
+}
+
+section:nth-child(2) figure img {
+    width: auto;
+}
+
+section:nth-child(3) figure {
+    bottom: 0;
+    right: 0;
+}
+
+section:nth-child(4) figure {
+    right: 0;
+    top: 0;
+}
+
+section:nth-child(5) figure {
+    left: -64px;
+    top: -48px;
+}
+
+section:nth-child(6) figure {
+    bottom: -96px;
+    right: -128px;
+}
+
+section:nth-child(7) figure {
+    bottom: -160px;
+    left: 20%;
+}
