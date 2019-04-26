@@ -1,8 +1,31 @@
+aside {
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    position: absolute;
+    padding: 12px;
+}
+
+aside.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+aside.top-right {
+    right: 0;
+    top: 0;
+}
+
+aside a {
+    color: white;
+    text-decoration: none;
+}
+
 body {
-    background: #111 url("/images/layer-0.jpg") center center no-repeat;
+    background: #111;
 }
 
 html, body {
+    font-family: 'Fira Sans', 'Roboto', -apple-system, 'Segoe UI', sans-serif;
     height: 100%;
     margin: 0;
     overflow: hidden;
